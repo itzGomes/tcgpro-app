@@ -6,12 +6,12 @@
 
 Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers — on your own Mac.
 
-[![Version 2.3.3](https://img.shields.io/badge/version-2.3.3-4C6EF5?style=flat-square&labelColor=0D1117)](#)
+[![Version 2.3.3](https://img.shields.io/badge/version-2.3.3-7298FD?style=flat-square&labelColor=0D1117)](#)
 [![macOS, Intel and Apple silicon](https://img.shields.io/badge/macOS-Intel%20%7C%20Apple%20silicon-253041?style=flat-square&labelColor=0D1117)](#)
 [![Download size about 93 MB](https://img.shields.io/badge/download-~93%20MB-253041?style=flat-square&labelColor=0D1117)](#)
 [![Proprietary licence](https://img.shields.io/badge/licence-proprietary-253041?style=flat-square&labelColor=0D1117)](LICENSE)
 
-[![Download for macOS](https://img.shields.io/badge/Download%20for%20macOS-Free%2014--day%20trial-4C6EF5?style=for-the-badge&logo=apple&logoColor=white&labelColor=0D1117)](../../releases/latest)
+[![Download for macOS](https://img.shields.io/badge/Download%20for%20macOS-Free%2014--day%20trial-7298FD?style=for-the-badge&logo=apple&logoColor=white&labelColor=0D1117)](../../releases/latest)
 
 <a href="#a-look-inside">Screens</a> · <a href="#install">Install</a> · <a href="#pricing">Pricing</a> · <a href="#faq">FAQ</a>
 
