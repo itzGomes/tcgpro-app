@@ -1,0 +1,47 @@
+TCGPro - Software Licence Agreement
+
+Copyright (c) 2026 TCGPro. All rights reserved.
+TCGPro and its source code, design, text, data structures and documentation are the confidential and proprietary property of TCGPro.
+
+1. Licence. TCGPro is licensed, not sold. When you start the free trial, subscribe or buy a copy, you receive a personal, non-exclusive,
+   non-transferable, revocable licence to install and use it on the computers you own or control (up to 2 Macs at a time), for your own
+   trading-card business or hobby.
+
+2. What you may NOT do. You may not, and may not let anyone else: (a) copy, resell, rent, lend, share, publish or distribute the program or
+   any of its files; (b) modify, adapt, translate or create derivative works of the program; (c) decompile, disassemble, reverse engineer,
+   decrypt, extract the source code, data files or interface files of the program, or try to find its keys, except where the law gives you
+   that right and cannot be excluded by contract; (d) remove, hide or change any copyright, confidentiality or licence notice, signature,
+   licence key or integrity check; (e) use the program to build a competing product; (f) circumvent any technical protection.
+   You may make backups of your own data and of the program for your own computers.
+
+3. Confidentiality. How the program works inside is confidential information of TCGPro. You agree to keep it confidential and not to disclose it.
+
+4. Ownership. TCGPro keeps all rights, title and interest in the program and every copy of it. No right is given to you other than the licence in
+   section 1. Third-party components keep their own licences, listed in THIRD_PARTY_NOTICES.txt; those notices must be kept.
+
+5. Your data. Your data stays on your computer, locked with encryption. The program does not send your inventory, sales or passwords to TCGPro.
+   It sends only your email address, your licence key, a code of your Mac, its name and the program version to TCGPro's licence service, to start
+   your trial and keep your subscription up to date. Payments are handled by Stripe on its own page; TCGPro never sees your card details.
+   If you lose both your password and your recovery key, nobody, including TCGPro, can open your data.
+
+6. Free trial and subscription. The free trial lasts 14 days, needs no payment card and is limited to one per person and per Mac. After it you
+   can subscribe monthly or yearly at the price shown in the program. A subscription renews automatically for the same period until you cancel
+   it in the program (Settings, About, Subscription); you keep access until the end of the period you paid for. If a trial or subscription
+   ends, the program stays installed and your data stays yours: it opens read-only, so you can look at everything and export it, but not add or
+   change things until you subscribe again. Refunds follow the refund policy on mytcgpro.com. Licences bought earlier as a one-time purchase
+   stay valid.
+
+7. Termination. The licence ends at once if you break this agreement. You must then stop using the program and delete all copies.
+
+8. Not affiliated. TCGPro is an independent program. It is not affiliated with, endorsed by or sponsored by Cardmarket, eBay, The Pokemon
+   Company, Nintendo, Game Freak, Creatures, Riot Games, Bandai or any other game maker or marketplace. All product names, card names,
+   images and trademarks belong to their owners and are used only to identify the cards you trade.
+
+9. Estimates only. Prices, fees, profit, margins and totals shown by the program are estimates to help you run your business. They are not
+   tax, accounting or legal advice. Check them against your own records and talk to a qualified adviser before you file taxes or make
+   financial decisions. Marketplace fee rates change; enter the rates from your own account.
+
+10. No warranty. The program is provided "as is", without warranty of any kind. To the extent the law allows, TCGPro is not liable for lost
+   data, lost profit or any indirect damage. Keep your own backups (the program makes encrypted ones for you).
+
+TCGPro (c) 2026. All rights reserved. Unauthorised copying, modification or distribution is prohibited.

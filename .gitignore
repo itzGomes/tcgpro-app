@@ -1,0 +1,28 @@
+# This repository is the PUBLIC download page for TCGPro.
+# It holds no source code: TCGPro's source is proprietary and stays in a private repository.
+
+# working folders used while the page was written (never published)
+_word/
+_hud/
+
+# the application itself is published as a GitHub Release asset, never committed
+*.zip
+*.app/
+*.dmg
+
+# macOS / editor noise
+.DS_Store
+._*
+Thumbs.db
+
+# nothing with data, keys or secrets belongs here
+*.db
+*.db-wal
+*.db-shm
+*.tcgbak
+*.key
+*.pem
+*.p12
+*.p8
+.env
+.env.*
