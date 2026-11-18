@@ -256,6 +256,10 @@ Questions, a problem, or something that does not work? Use the contact form: **h
 
 It helps to say which TCGPro version you are on (*Settings → About*) and what you see on screen. Never send your password or your recovery key — you will never be asked for them.
 
+There is also a Discord community for TCGPro users: **https://discord.gg/pTQKMzCyY**
+
+Issues are turned off on this repository, because it holds no source code.
+
 ---
 
 ## About this repository
