@@ -232,7 +232,7 @@ Print the buyers' addresses on small labels, several to an A4 sheet, instead of 
 4. Using a sheet you already started? Choose **First label goes in position** so the first free place is used and no paper is wasted.
 5. Press **Make the PDF**, open it and print at 100% (actual size, not "fit to page"). Printed labels move to *Printed*, where **Print again** brings one back.
 
-The addresses stay on this computer: they are not sent anywhere and not written to the history. Printed labels are deleted after 30 days.
+The addresses stay on this computer: they are not sent anywhere and are never written to the history or the audit log. Printed labels are deleted automatically.
 
 ## Finance
 

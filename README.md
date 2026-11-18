@@ -195,7 +195,7 @@ TCGPro checks its own files at every start and refuses to run if any of them wer
 - **Payments are handled by Stripe** on its own page. TCGPro never sees your card details.
 - **Cardmarket is read, never written.** When you press Sync, TCGPro reads your own logged-in Cardmarket pages. It does not change or remove your listings — you do that yourself.
 - **eBay only if you ask for it.** Nothing goes to eBay unless you connect your own eBay developer keys. With that connection a listing is created only when you press *List on eBay* on that card, and TCGPro keeps your eBay quantities in line with your stock.
-- **Buyers' addresses used for shipping labels stay on your Mac**, are not sent anywhere, are not written to the history, and printed labels are deleted after 30 days.
+- **Buyers' addresses used for shipping labels stay on your Mac**, are not sent anywhere and are never written to the audit log, and printed labels are deleted automatically.
 - **Seller contact details** you record with a purchase are stored encrypted.
 - **Every change is logged locally** in the activity log, so you can see what happened to stock, costs, prices, sales and settings.
 
