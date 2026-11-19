@@ -6,7 +6,7 @@
 
 Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers — on your own Mac.
 
-[![Version 2.3.4](https://img.shields.io/badge/version-2.3.4-7298FD?style=flat-square&labelColor=0D1117)](#)
+[![Version 2.3.5](https://img.shields.io/badge/version-2.3.5-7298FD?style=flat-square&labelColor=0D1117)](#)
 [![macOS, Intel and Apple silicon](https://img.shields.io/badge/macOS-Intel%20%7C%20Apple%20silicon-253041?style=flat-square&labelColor=0D1117)](#)
 [![Download size about 93 MB](https://img.shields.io/badge/download-~93%20MB-253041?style=flat-square&labelColor=0D1117)](#)
 [![Proprietary licence](https://img.shields.io/badge/licence-proprietary-253041?style=flat-square&labelColor=0D1117)](LICENSE)
