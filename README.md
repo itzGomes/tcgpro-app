@@ -4,14 +4,15 @@
 
 # TCGPro
 
-Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers — on your own Mac.
+Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers — on your own computer.
 
 [![Version 2.3.6](https://img.shields.io/badge/version-2.3.6-7298FD?style=flat-square&labelColor=0D1117)](#)
 [![macOS, Intel and Apple silicon](https://img.shields.io/badge/macOS-Intel%20%7C%20Apple%20silicon-253041?style=flat-square&labelColor=0D1117)](#)
-[![Download size about 92 MB](https://img.shields.io/badge/download-~92%20MB-253041?style=flat-square&labelColor=0D1117)](#)
+[![Windows 10 or 11, 64-bit](https://img.shields.io/badge/Windows-10%20or%2011%2C%2064--bit-253041?style=flat-square&labelColor=0D1117)](#)
 [![Proprietary licence](https://img.shields.io/badge/licence-proprietary-253041?style=flat-square&labelColor=0D1117)](LICENSE)
 
 [![Download for macOS](https://img.shields.io/badge/Download%20for%20macOS-Free%2014--day%20trial-7298FD?style=for-the-badge&logo=apple&logoColor=white&labelColor=0D1117)](../../releases/latest)
+[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-Free%2014--day%20trial-7298FD?style=for-the-badge&logoColor=white&labelColor=0D1117)](../../releases/latest)
 
 <a href="#a-look-inside">Screens</a> · <a href="#install">Install</a> · <a href="#pricing">Pricing</a> · <a href="#faq">FAQ</a>
 
@@ -25,18 +26,18 @@ TCGPro is a desktop app for people who buy and sell trading cards. It keeps your
 
 It is built for sellers who have outgrown spreadsheets: Cardmarket sellers, eBay sellers, and anyone tracking cost, condition and quantity across Pokémon, One Piece and Riftbound.
 
-Your data lives in a folder on your own Mac, and the download is free to try for 14 days before you decide anything.
+It runs on macOS and on Windows 10 or 11. Your data lives in a folder on your own computer, and the download is free to try for 14 days before you decide anything.
 
 ---
 
 ## Why TCGPro
 
 - **You know your real profit.** Each sale is costed against the oldest copy you bought, minus marketplace fees and postage — not a guess from the market price.
-- **You stop retyping your Cardmarket stock.** Press Sync and TCGPro reads your own Cardmarket stock in the background and tells you what changed.
+- **You stop retyping your Cardmarket stock.** Press Sync and TCGPro reads your own Cardmarket stock and tells you what changed.
 - **You stop selling the same card twice.** Stock check lists cards you sold elsewhere that are probably still live on Cardmarket.
 - **Your cheap cards stop clogging your stock.** Bulk lots turns them into priced eBay lots with a ready title and description.
 - **You can hand numbers to an accountant.** Reports as PDF, exports as Excel, expenses and partner capital in one Finance screen.
-- **Your data stays on your Mac** and you can always export it, including after a trial or subscription ends.
+- **Your data stays on your own computer** and you can always export it, including after a trial or subscription ends.
 - **One app instead of several spreadsheets**, with most screens laid out the way you arrange them.
 
 ## What it does
@@ -44,7 +45,7 @@ Your data lives in a folder on your own Mac, and the download is free to try for
 - **Inventory** — every card with condition, language, edition, foil, quantity and what you actually paid.
 - **Live Cardmarket prices** — reference price, lowest listing, 1/7/30-day averages and the trend since you bought.
 - **Recommended prices** per marketplace, with every step of the calculation shown, fees and profit included.
-- **Cardmarket sync built in** — press Sync; no browser extension needed on macOS.
+- **Cardmarket sync** — press Sync. On a Mac it is built in, with nothing to install; on Windows it uses a small browser extension that comes with TCGPro and is loaded once in Edge or Chrome.
 - **eBay listing helper** — title, item specifics and description ready to copy; full eBay integration if you add your own developer keys.
 - **Real FIFO profit** — each sale costed against the oldest copy you bought, after fees and postage.
 - **Finance and reports** — business value, expenses, partner capital, PDF reports and Excel exports.
@@ -65,6 +66,7 @@ Your data lives in a folder on your own Mac, and the download is free to try for
 
 **Cardmarket sync**
 - Built into the Mac app: press Sync and Cardmarket is read in the background, with progress shown in the sync window. Nothing to install.
+- On Windows the sync works through a small browser extension that comes with TCGPro. You load it into Microsoft Edge or Google Chrome once; TCGPro keeps its own copy of the extension up to date, and the Cardmarket page in the app shows you the exact folder.
 - Reads the stock of all three games, and reports what is on Cardmarket but not in your inventory so you can add it with a cost basis.
 - Read-only on Cardmarket's side: TCGPro reads your stock, it does not change or remove your Cardmarket listings for you.
 - Cardmarket sales can be pre-filled with Scan sales — orders are matched by order number, so nothing is added twice — and you can print a packing list.
@@ -128,9 +130,17 @@ Your data lives in a folder on your own Mac, and the download is free to try for
 
 ## Install
 
+TCGPro runs on macOS and on Windows 10 or 11, 64-bit. It is the same app on both: the same features, the same prices and the same licence. Windows support is new — 2.3.6 is the first Windows release.
+
+Already bought TCGPro earlier? Choose **I already have a licence key or an order number** on the first screen and enter your order number or key.
+
+TCGPro checks its own files at every start and refuses to run if any of them were changed.
+
+### macOS
+
 macOS will warn you the first time you open TCGPro. That is expected: TCGPro is distributed directly rather than through the App Store, and it is ad-hoc signed, not notarized. macOS therefore asks you to confirm it once. Takes about a minute, once per Mac.
 
-1. **Download the .zip** from the Releases page of this repo and unzip it.
+1. **Download the macOS zip** — the file ending in `-mac.zip` — from the Releases page of this repo, and unzip it.
 2. **Drag TCGPro into your Applications folder.**
 3. **Double-click TCGPro.** macOS says *"TCGPro" Not Opened*. Click **Done**. Do not click "Move to Bin" (shown as "Move to Trash" on some systems).
 4. **Open the Apple menu → System Settings → Privacy & Security** and scroll down to the Security section. It says *"TCGPro" was blocked to protect your Mac*. Click **Open Anyway** and confirm with your Mac password or Touch ID.
@@ -145,23 +155,40 @@ If it still will not open, run this in Terminal, then open TCGPro normally:
 xattr -dr com.apple.quarantine /Applications/TCGPro.app
 ```
 
-Already bought TCGPro earlier? Choose **I already have a licence key** on the first screen and enter your order number or key.
+### Windows
 
-TCGPro checks its own files at every start and refuses to run if any of them were changed.
+TCGPro for Windows is a zip folder, not an installer. Windows may warn you the first time you open it. That is expected: TCGPro is sold directly rather than through the Microsoft Store, and it is not signed with a paid Windows publisher certificate, so Windows asks you to confirm it once. Takes about two minutes, once.
+
+1. **Download the Windows zip** — the file ending in `-windows.zip` — from the Releases page of this repo.
+2. **Unzip it. You get a folder called TCGPro: put that whole folder straight on your C: drive**, so that it is `C:\TCGPro` (recommended). Not your Desktop, not your Documents folder, not a OneDrive folder, and not Program Files. Do not run TCGPro from inside the zip file.
+3. **Open the folder and double-click TCGPro** — the program with the TCGPro icon.
+4. **If Windows shows *Windows protected your PC*,** click **More info**, then click **Run anyway**.
+5. **TCGPro opens in its own window**, using Microsoft Edge (it comes with Windows) or Google Chrome.
+6. **Type your email to start the 14-day free trial.** No card is needed. You will also set your password here.
+
+Your data is kept separately from the program, in `%APPDATA%\TCGBusinessSuite`.
+
+**The Cardmarket sync, if you want it, needs a small browser extension once.** TCGPro comes with the extension and keeps its own copy in `%APPDATA%\TCGBusinessSuite\cardmarket-sync-extension`, which survives moving or updating the TCGPro folder. In TCGPro, open the Cardmarket page and press **Open Chrome extensions page** and **Show the folder**. In Microsoft Edge (`edge://extensions`) switch on **Developer mode**, click **Load unpacked** and choose that folder. Google Chrome: the same steps at `chrome://extensions`. Choose the folder the Cardmarket page shows you, not a folder inside the one you unzipped.
+
+**Updating TCGPro later.** Your data stays in `%APPDATA%\TCGBusinessSuite` and an update never touches it.
+
+1. Close TCGPro.
+2. **Delete the old TCGPro folder.** Do not unzip the new version on top of the old one: files left over from the old version make TCGPro refuse to start, because it checks its own files against a signed list and a leftover file is a file that should not be there.
+3. Unzip the new zip and put its TCGPro folder in the same place (`C:\TCGPro`), then open TCGPro as before. Windows may show the *Windows protected your PC* screen again: **More info**, then **Run anyway**.
 
 <p align="center">
-<a href="../../releases/latest"><b>Download TCGPro for macOS</b></a>
+<a href="../../releases/latest"><b>Download TCGPro for macOS</b></a> · <a href="../../releases/latest"><b>Download TCGPro for Windows</b></a>
 </p>
 
 ## Pricing
 
 - **The download is free**, and so is the trial.
-- **14 days, everything working, no payment card.** One trial per person and per Mac.
+- **14 days, everything working, no payment card.** One trial per person and per computer.
 - **Then €9.99 per month or €99.99 per year**, paid inside the app. Payment happens on Stripe's own secure page; your card details never reach TCGPro.
 - **Cancel any time** in *Settings → About → Subscription*. You keep full access until the end of the period you have paid for.
 - **If a payment fails**, TCGPro keeps working for a week while the payment is retried and asks you to update your payment method.
 - **When a trial or subscription ends, nothing is locked away.** TCGPro opens read-only: you can still open every screen, generate PDF reports, export to Excel and take backups. You cannot add or change things until you subscribe again. Your data is never deleted or held back.
-- **One subscription covers up to 2 Macs at a time.** Your licence key is in *Settings → About*; keep it to set up a new Mac.
+- **One subscription covers up to 2 computers at a time.** Your licence key is in *Settings → About*; keep it to set up a new computer.
 - Prices are in euros. Refunds follow the refund policy at https://mytcgpro.com/policies/refund-policy
 
 | Plan | Price |
@@ -172,30 +199,32 @@ TCGPro checks its own files at every start and refuses to run if any of them wer
 
 ## Requirements
 
-- macOS 13 or later.
-- Apple silicon or Intel — one universal build runs natively on both.
-- About 92 MB to download, about 215 MB once installed.
+- macOS 13 or later, or Windows 10 or 11, 64-bit.
+- On a Mac, Apple silicon or Intel — one universal build runs natively on both.
+- On Windows, Microsoft Edge (it comes with Windows) or Google Chrome: TCGPro uses one of them to draw its own window.
 - An internet connection to start the trial, and from time to time afterwards to keep a subscription up to date. Cardmarket prices, card pictures and the optional Cardmarket and eBay features also need the internet.
-- The Cardmarket sync is built into the Mac app. No browser extension is needed on macOS.
-- There is no Windows release.
+- The Cardmarket sync is built into the Mac app, with no browser extension to install. On Windows it uses a small browser extension that comes with TCGPro, loaded once in Edge or Chrome.
+- The Windows version is a zip folder you unzip yourself, not an installer.
 
-| | |
-| --- | --- |
-| Operating system | macOS 13 or later |
-| Processor | Intel and Apple silicon (one universal build) |
-| Download | about 92 MB |
-| Installed size | about 215 MB |
+| | macOS | Windows |
+| --- | --- | --- |
+| Operating system | macOS 13 or later | Windows 10 or 11, 64-bit |
+| Processor | Intel and Apple silicon (one universal build) | 64-bit |
+| Download | about 92 MB | about 44 MB |
+| Size once installed | about 215 MB | about 87 MB unzipped |
+| Where your data lives | a folder on your Mac (*Settings → About*) | `%APPDATA%\TCGBusinessSuite` |
+| Cardmarket sync | built in, nothing to install | a small extension, supplied with TCGPro |
 
 ## Privacy
 
-- **Your business data stays on your Mac.** Stock, costs, sales, expenses and settings live in a data folder on your own computer; *Settings → About* shows you exactly where it is.
+- **Your business data stays on your own computer.** Stock, costs, sales, expenses and settings live in a data folder there; *Settings → About* shows you exactly where it is.
 - **It is encrypted and locked with your password** (AES-256, with a scrypt-derived key), and a recovery key only you hold. If you lose both your password and your recovery key, nobody can open your data — not even us.
 - **Automatic backups** are made for you, and you can back up to an external drive from *Settings → Backup & restore* at any time.
-- **Your inventory, sales and passwords are never sent to us.** Per the licence agreement, the only data TCGPro sends to its licence service is your email address, your licence key, a code of your Mac, its name and the program version — enough to start your trial and keep your subscription up to date. The Cardmarket and eBay bullets below cover the connections you choose to make yourself.
+- **Your inventory, sales and passwords are never sent to us.** Per the licence agreement, the only data TCGPro sends to its licence service is your email address, your licence key, a code of your computer, its name and the program version — enough to start your trial and keep your subscription up to date. The Cardmarket and eBay bullets below cover the connections you choose to make yourself.
 - **Payments are handled by Stripe** on its own page. TCGPro never sees your card details.
 - **Cardmarket is read, never written.** When you press Sync, TCGPro reads your own logged-in Cardmarket pages. It does not change or remove your listings — you do that yourself.
 - **eBay only if you ask for it.** Nothing goes to eBay unless you connect your own eBay developer keys. With that connection a listing is created only when you press *List on eBay* on that card, and TCGPro keeps your eBay quantities in line with your stock.
-- **Buyers' addresses used for shipping labels stay on your Mac**, are not sent anywhere and are never written to the audit log, and printed labels are deleted automatically.
+- **Buyers' addresses used for shipping labels stay on your own computer**, are not sent anywhere and are never written to the audit log, and printed labels are deleted automatically.
 - **Seller contact details** you record with a purchase are stored encrypted.
 - **Every change is logged locally** in the activity log, so you can see what happened to stock, costs, prices, sales and settings.
 
@@ -216,6 +245,13 @@ Because it is distributed directly rather than through the App Store, and it is 
 </details>
 
 <details>
+<summary><b>Why does Windows say "Windows protected your PC"?</b></summary>
+
+Because TCGPro is sold directly rather than through the Microsoft Store, and it is not signed with a paid Windows publisher certificate. Click **More info**, then **Run anyway**. Windows asks the first time you open it. The Install steps above walk through it, and the same steps are in the download.
+
+</details>
+
+<details>
 <summary><b>What do I need to pay to try it?</b></summary>
 
 Nothing. The download is free and the 14-day trial needs no payment card. You only pay if you decide to subscribe.
@@ -225,14 +261,16 @@ Nothing. The download is free and the 14-day trial needs no payment card. You on
 <details>
 <summary><b>What happens to my data if I stop paying?</b></summary>
 
-It stays yours and stays on your Mac. TCGPro opens read-only: you can look at everything, generate reports, export to Excel and take backups, but not add or change entries until you subscribe again.
+It stays yours and stays on your own computer. TCGPro opens read-only: you can look at everything, generate reports, export to Excel and take backups, but not add or change entries until you subscribe again.
 
 </details>
 
 <details>
 <summary><b>Do I need a browser extension for the Cardmarket sync?</b></summary>
 
-Not on macOS. The sync runs inside the app. The first time, and occasionally after that, a small Cardmarket window appears so you can log in or tick Cardmarket's "verify you are human" box; the sync then carries on by itself.
+Not on a Mac. There the sync runs inside the app: the first time, and occasionally after that, a small Cardmarket window appears so you can log in or tick Cardmarket's "verify you are human" box, and the sync then carries on by itself.
+
+On Windows you do, once. The extension comes with TCGPro, which keeps its own copy of it in `%APPDATA%\TCGBusinessSuite\cardmarket-sync-extension`. Open the Cardmarket page in TCGPro: it shows you that folder and has buttons to open the extensions page and show the folder. You load it into Microsoft Edge or Google Chrome once, and stay signed in to Cardmarket in that browser.
 
 </details>
 
@@ -246,7 +284,7 @@ The listing helper does — it gives you the title, item specifics and descripti
 <details>
 <summary><b>Is there a Windows version?</b></summary>
 
-Not released. The Mac app is the only version available.
+Yes, from 2.3.6, for Windows 10 and 11, 64-bit. It is the same app as the Mac version, with the same features, the same prices and the same licence. It comes as a zip folder rather than an installer: unzip it, put the TCGPro folder on your C: drive and double-click TCGPro.
 
 </details>
 
