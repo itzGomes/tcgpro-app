@@ -6,9 +6,9 @@
 
 Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers — on your own Mac.
 
-[![Version 2.3.5](https://img.shields.io/badge/version-2.3.5-7298FD?style=flat-square&labelColor=0D1117)](#)
+[![Version 2.3.6](https://img.shields.io/badge/version-2.3.6-7298FD?style=flat-square&labelColor=0D1117)](#)
 [![macOS, Intel and Apple silicon](https://img.shields.io/badge/macOS-Intel%20%7C%20Apple%20silicon-253041?style=flat-square&labelColor=0D1117)](#)
-[![Download size about 93 MB](https://img.shields.io/badge/download-~93%20MB-253041?style=flat-square&labelColor=0D1117)](#)
+[![Download size about 92 MB](https://img.shields.io/badge/download-~92%20MB-253041?style=flat-square&labelColor=0D1117)](#)
 [![Proprietary licence](https://img.shields.io/badge/licence-proprietary-253041?style=flat-square&labelColor=0D1117)](LICENSE)
 
 [![Download for macOS](https://img.shields.io/badge/Download%20for%20macOS-Free%2014--day%20trial-7298FD?style=for-the-badge&logo=apple&logoColor=white&labelColor=0D1117)](../../releases/latest)
@@ -174,7 +174,7 @@ TCGPro checks its own files at every start and refuses to run if any of them wer
 
 - macOS 13 or later.
 - Apple silicon or Intel — one universal build runs natively on both.
-- About 93 MB to download, about 215 MB once installed.
+- About 92 MB to download, about 215 MB once installed.
 - An internet connection to start the trial, and from time to time afterwards to keep a subscription up to date. Cardmarket prices, card pictures and the optional Cardmarket and eBay features also need the internet.
 - The Cardmarket sync is built into the Mac app. No browser extension is needed on macOS.
 - There is no Windows release.
@@ -183,7 +183,7 @@ TCGPro checks its own files at every start and refuses to run if any of them wer
 | --- | --- |
 | Operating system | macOS 13 or later |
 | Processor | Intel and Apple silicon (one universal build) |
-| Download | about 93 MB |
+| Download | about 92 MB |
 | Installed size | about 215 MB |
 
 ## Privacy
