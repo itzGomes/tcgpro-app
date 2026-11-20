@@ -7,12 +7,13 @@
 Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers — on your own computer.
 
 [![Version 2.3.6](https://img.shields.io/badge/version-2.3.6-7298FD?style=flat-square&labelColor=0D1117)](#)
-[![macOS, Intel and Apple silicon](https://img.shields.io/badge/macOS-Intel%20%7C%20Apple%20silicon-253041?style=flat-square&labelColor=0D1117)](#)
-[![Windows 10 or 11, 64-bit](https://img.shields.io/badge/Windows-10%20or%2011%2C%2064--bit-253041?style=flat-square&labelColor=0D1117)](#)
+[![macOS 13 or later](https://img.shields.io/badge/macOS-13%20or%20later-253041?style=flat-square&labelColor=0D1117)](#requirements)
+[![Windows 10 or 11](https://img.shields.io/badge/Windows-10%20or%2011-253041?style=flat-square&labelColor=0D1117)](#requirements)
+[![Free 14-day trial, no card](https://img.shields.io/badge/trial-14%20days%2C%20no%20card-253041?style=flat-square&labelColor=0D1117)](#pricing)
 [![Proprietary licence](https://img.shields.io/badge/licence-proprietary-253041?style=flat-square&labelColor=0D1117)](LICENSE)
 
-[![Download for macOS](https://img.shields.io/badge/Download%20for%20macOS-Free%2014--day%20trial-7298FD?style=for-the-badge&logo=apple&logoColor=white&labelColor=0D1117)](../../releases/latest)
-[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-Free%2014--day%20trial-7298FD?style=for-the-badge&logoColor=white&labelColor=0D1117)](../../releases/latest)
+[![Download for macOS, about 92 MB](https://img.shields.io/badge/Download%20for%20macOS-~92%20MB-7298FD?style=for-the-badge&labelColor=0D1117)](../../releases/latest)
+[![Download for Windows, about 44 MB](https://img.shields.io/badge/Download%20for%20Windows-~44%20MB-7298FD?style=for-the-badge&labelColor=0D1117)](../../releases/latest)
 
 <a href="#a-look-inside">Screens</a> · <a href="#install">Install</a> · <a href="#pricing">Pricing</a> · <a href="#faq">FAQ</a>
 
@@ -177,7 +178,8 @@ Your data is kept separately from the program, in `%APPDATA%\TCGBusinessSuite`.
 3. Unzip the new zip and put its TCGPro folder in the same place (`C:\TCGPro`), then open TCGPro as before. Windows may show the *Windows protected your PC* screen again: **More info**, then **Run anyway**.
 
 <p align="center">
-<a href="../../releases/latest"><b>Download TCGPro for macOS</b></a> · <a href="../../releases/latest"><b>Download TCGPro for Windows</b></a>
+<a href="../../releases/latest"><img alt="Download TCGPro for macOS, about 92 MB" src="https://img.shields.io/badge/Download%20for%20macOS-~92%20MB-253041?style=for-the-badge&labelColor=0D1117"></a>
+<a href="../../releases/latest"><img alt="Download TCGPro for Windows, about 44 MB" src="https://img.shields.io/badge/Download%20for%20Windows-~44%20MB-253041?style=for-the-badge&labelColor=0D1117"></a>
 </p>
 
 ## Pricing
@@ -208,11 +210,9 @@ Your data is kept separately from the program, in `%APPDATA%\TCGBusinessSuite`.
 
 | | macOS | Windows |
 | --- | --- | --- |
-| Operating system | macOS 13 or later | Windows 10 or 11, 64-bit |
-| Processor | Intel and Apple silicon (one universal build) | 64-bit |
+| Operating system | 13 or later (Intel and Apple silicon) | 10 or 11 (64-bit) |
 | Download | about 92 MB | about 44 MB |
-| Size once installed | about 215 MB | about 87 MB unzipped |
-| Where your data lives | a folder on your Mac (*Settings → About*) | `%APPDATA%\TCGBusinessSuite` |
+| Installed size | about 215 MB | about 87 MB |
 | Cardmarket sync | built in, nothing to install | a small extension, supplied with TCGPro |
 
 ## Privacy
