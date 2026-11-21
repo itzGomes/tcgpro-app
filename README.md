@@ -4,7 +4,7 @@
 
 # TCGPro
 
-Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers — on your own computer.
+Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers on your own computer.
 
 [![Version 2.3.6](https://img.shields.io/badge/version-2.3.6-7298FD?style=flat-square&labelColor=0D1117)](#)
 [![macOS 13 or later](https://img.shields.io/badge/macOS-13%20or%20later-253041?style=flat-square&labelColor=0D1117)](#requirements)
@@ -25,19 +25,18 @@ Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers �
 
 TCGPro is a desktop app for people who buy and sell trading cards. It keeps your stock, your costs and your sales in one place, works out your profit from what you actually paid for each copy, and gives you the figures and reports a card business needs.
 
-It is built for sellers who have outgrown spreadsheets: Cardmarket sellers, eBay sellers, and anyone tracking cost, condition and quantity across Pokémon, One Piece and Riftbound.
+It is built for Cardmarket sellers, eBay sellers, and anyone tracking cost, condition and quantity across Pokémon, One Piece and Riftbound.
 
-It runs on macOS and on Windows 10 or 11. Your data lives in a folder on your own computer, and the download is free to try for 14 days before you decide anything.
+It runs on macOS and on Windows 10/11. Your data lives in a folder on your own computer, and the download is free to try for 14 days before you decide anything.
 
 ---
 
 ## Why TCGPro
 
-- **You know your real profit.** Each sale is costed against the oldest copy you bought, minus marketplace fees and postage — not a guess from the market price.
 - **You stop retyping your Cardmarket stock.** Press Sync and TCGPro reads your own Cardmarket stock and tells you what changed.
 - **You stop selling the same card twice.** Stock check lists cards you sold elsewhere that are probably still live on Cardmarket.
 - **Your cheap cards stop clogging your stock.** Bulk lots turns them into priced eBay lots with a ready title and description.
-- **You can hand numbers to an accountant.** Reports as PDF, exports as Excel, expenses and partner capital in one Finance screen.
+- **You can download your real numbers.** Reports as PDF, exports as Excel, expenses and partner capital in one Finance screen.
 - **Your data stays on your own computer** and you can always export it, including after a trial or subscription ends.
 - **One app instead of several spreadsheets**, with most screens laid out the way you arrange them.
 
@@ -46,7 +45,7 @@ It runs on macOS and on Windows 10 or 11. Your data lives in a folder on your ow
 - **Inventory** — every card with condition, language, edition, foil, quantity and what you actually paid.
 - **Live Cardmarket prices** — reference price, lowest listing, 1/7/30-day averages and the trend since you bought.
 - **Recommended prices** per marketplace, with every step of the calculation shown, fees and profit included.
-- **Cardmarket sync** — press Sync. On a Mac it is built in, with nothing to install; on Windows it uses a small browser extension that comes with TCGPro and is loaded once in Edge or Chrome.
+- **Cardmarket sync** press Sync. On a Mac it is built in, with nothing to install; on Windows it uses a small browser extension that comes with TCGPro and is loaded once in Edge or Chrome.
 - **eBay listing helper** — title, item specifics and description ready to copy; full eBay integration if you add your own developer keys.
 - **Real FIFO profit** — each sale costed against the oldest copy you bought, after fees and postage.
 - **Finance and reports** — business value, expenses, partner capital, PDF reports and Excel exports.
