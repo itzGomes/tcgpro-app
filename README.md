@@ -6,14 +6,13 @@
 
 Inventory, sales and real profit for Pokémon, One Piece and Riftbound sellers on your own computer.
 
-[![Version 2.3.6](https://img.shields.io/badge/version-2.3.6-7298FD?style=flat-square&labelColor=0D1117)](#)
 [![macOS 13 or later](https://img.shields.io/badge/macOS-13%20or%20later-253041?style=flat-square&labelColor=0D1117)](#requirements)
 [![Windows 10 or 11](https://img.shields.io/badge/Windows-10%20or%2011-253041?style=flat-square&labelColor=0D1117)](#requirements)
 [![Free 14-day trial, no card](https://img.shields.io/badge/trial-14%20days%2C%20no%20card-253041?style=flat-square&labelColor=0D1117)](#pricing)
 [![Proprietary licence](https://img.shields.io/badge/licence-proprietary-253041?style=flat-square&labelColor=0D1117)](LICENSE)
 
-[![Download for macOS, about 92 MB](https://img.shields.io/badge/Download%20for%20macOS-~92%20MB-7298FD?style=for-the-badge&labelColor=0D1117)](../../releases/latest)
-[![Download for Windows, about 44 MB](https://img.shields.io/badge/Download%20for%20Windows-~44%20MB-7298FD?style=for-the-badge&labelColor=0D1117)](../../releases/latest)
+[![Download TCGPro for macOS](https://img.shields.io/badge/Download-macOS-7298FD?style=for-the-badge&labelColor=0D1117)](../../releases/latest)
+[![Download TCGPro for Windows](https://img.shields.io/badge/Download-Windows-7298FD?style=for-the-badge&labelColor=0D1117)](../../releases/latest)
 
 <a href="#a-look-inside">Screens</a> · <a href="#install">Install</a> · <a href="#pricing">Pricing</a> · <a href="#faq">FAQ</a>
 
@@ -130,7 +129,7 @@ It runs on macOS and on Windows 10/11. Your data lives in a folder on your own c
 
 ## Install
 
-TCGPro runs on macOS and on Windows 10 or 11, 64-bit. It is the same app on both: the same features, the same prices and the same licence. Windows support is new — 2.3.6 is the first Windows release.
+TCGPro runs on macOS and on Windows 10 or 11, 64-bit. It is the same app on both: the same features, the same prices and the same licence. Windows support is new.
 
 Already bought TCGPro earlier? Choose **I already have a licence key or an order number** on the first screen and enter your order number or key.
 
@@ -177,8 +176,8 @@ Your data is kept separately from the program, in `%APPDATA%\TCGBusinessSuite`.
 3. Unzip the new zip and put its TCGPro folder in the same place (`C:\TCGPro`), then open TCGPro as before. Windows may show the *Windows protected your PC* screen again: **More info**, then **Run anyway**.
 
 <p align="center">
-<a href="../../releases/latest"><img alt="Download TCGPro for macOS, about 92 MB" src="https://img.shields.io/badge/Download%20for%20macOS-~92%20MB-253041?style=for-the-badge&labelColor=0D1117"></a>
-<a href="../../releases/latest"><img alt="Download TCGPro for Windows, about 44 MB" src="https://img.shields.io/badge/Download%20for%20Windows-~44%20MB-253041?style=for-the-badge&labelColor=0D1117"></a>
+<a href="../../releases/latest"><img alt="Download TCGPro for macOS" src="https://img.shields.io/badge/Download-macOS-253041?style=for-the-badge&labelColor=0D1117"></a>
+<a href="../../releases/latest"><img alt="Download TCGPro for Windows" src="https://img.shields.io/badge/Download-Windows-253041?style=for-the-badge&labelColor=0D1117"></a>
 </p>
 
 ## Pricing
@@ -210,8 +209,6 @@ Your data is kept separately from the program, in `%APPDATA%\TCGBusinessSuite`.
 | | macOS | Windows |
 | --- | --- | --- |
 | Operating system | 13 or later (Intel and Apple silicon) | 10 or 11 (64-bit) |
-| Download | about 92 MB | about 44 MB |
-| Installed size | about 215 MB | about 87 MB |
 | Cardmarket sync | built in, nothing to install | a small extension, supplied with TCGPro |
 
 ## Privacy
@@ -283,7 +280,7 @@ The listing helper does — it gives you the title, item specifics and descripti
 <details>
 <summary><b>Is there a Windows version?</b></summary>
 
-Yes, from 2.3.6, for Windows 10 and 11, 64-bit. It is the same app as the Mac version, with the same features, the same prices and the same licence. It comes as a zip folder rather than an installer: unzip it, put the TCGPro folder on your C: drive and double-click TCGPro.
+Yes, for Windows 10 and 11, 64-bit. It is the same app as the Mac version, with the same features, the same prices and the same licence. It comes as a zip folder rather than an installer: unzip it, put the TCGPro folder on your C: drive and double-click TCGPro.
 
 </details>
 
